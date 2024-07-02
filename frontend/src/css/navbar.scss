@@ -1,0 +1,22 @@
+.navbar {
+    background: linear-gradient(to right, #eeeeee, #c7d1c7); /* Gradiente de verde oscuro a verde claro */
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+  
+    .navbar-brand {
+      display: flex;
+      align-items: center;
+  
+      .navbar-item {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 15px;
+      }
+    }
+  
+    .navbar-burger {
+      display: none; /* Ocultar para este ejemplo */
+    }
+  }
+  
